@@ -1,0 +1,62 @@
+<ErrorNull>
+
+<!--
+WANDERING HORDE ZOMBIE AMOUNT - Adjust number of zombies that appear in wandering hordes. There are 50 zombie groups below. When a wandering horde is about to spawn, the game will select enemies from one of these groups. How many enemies will be spawned from that group is determined by the value "num". As you can see, the default value for num is most commonly 8 or 10. Example: to increase the amount of zombies that spawn within the "enWanderingMilitary" group by 2x, look for the line that contains group "enWanderingMilitary" and change num from "10" to "20" like below:
+
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingMilitary']/@num">20</set>
+
+Note: The botton half of these wandering hord group names have the number "2" on the end. These groups contain stronger enemies like feral zombies.
+-->
+
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='ZombiesCrawlers']/			@num">10</set>	<!-- the crawler zombies -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingBusiness']/		@num">10</set>	<!-- businessmen/women zombies -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingFarmers']/		@num">10</set>	<!-- farmer zombies -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingStrippers']/		@num">10</set>	<!-- stripper zombies -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingHazmats']/		@num">10</set>	<!-- hazmat zombies -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingWorkers']/		@num">10</set>	<!-- utility and janitor zombies -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingCrazies']/		@num">10</set>	<!-- half naked and hobo looking zombies -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingCamos']/			@num">5</set>	<!-- camoflauge / bushy zombies on all fours  -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingHikers']/		@num">10</set>	<!-- hiker zombies -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingPunks']/			@num">10</set>	<!-- punk gangster zombies -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingKHz']/			@num">10</set>	<!-- all KHz archetype zombies -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='ZombieDogGroup']/			@num">05</set>	<!-- zombie dogs -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingCowboys']/		@num">10</set>	<!-- cowboys / cowgirls -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingFatasses']/		@num">10</set>	<!-- fat zombies -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingSpiders']/		@num">10</set>	<!-- spiders zombies -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingAthletes']/		@num">10</set>	<!-- football zombies and female joggers -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingBikers']/		@num">08</set>	<!-- bikers -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingMiners']/		@num">08</set>	<!-- desert miner zombies -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingFlamers']/		@num">08</set>	<!-- flamer zombies -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingLumberjacks']/	@num">06</set>	<!-- lumberjacks -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingMilitary']/		@num">10</set>	<!-- soldiers, swat, stealth/ninja -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingLabCreatures']/	@num">08</set>	<!-- albino lab creatures -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='ZombieDogGroup']/			@num">06</set>	<!-- zombie dogs -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingCops']/			@num">01</set>	<!-- fat cops -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingGiants']/		@num">01</set>	<!-- giants -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingBusiness2']/		@num">08</set>	<!-- feral businessmen/women zombies -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingFarmers2']/		@num">08</set>	<!-- feral farmer zombies -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingStrippers2']/	@num">08</set>	<!-- feral stripper zombies -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingHazmats2']/		@num">08</set>	<!-- feral hazmat zombies -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingWorkers2']/		@num">08</set>	<!-- feral utility and janitor zombies -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingCrazies2']/		@num">08</set>	<!-- feral half naked and hobo looking zombies -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingCamos2']/		@num">05</set>	<!-- feral camoflauge / bushy zombies on all fours -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingHikers2']/		@num">08</set>	<!-- feral hiker zombies -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='ZombieDogGroup']/			@num">07</set>	<!-- zombie dogs -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingPunks2']/		@num">08</set>	<!-- feral punk gangster zombies -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingKHz2']/			@num">08</set>	<!-- feral KHz archetype zombies -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingCowboys2']/		@num">08</set>	<!-- feral cowboys / cowgirls -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingFatasses2']/		@num">08</set>	<!-- feral fat zombies -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingSpiders2']/		@num">08</set>	<!-- feral spiders zombies -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingAthletes2']/		@num">08</set>	<!-- feral football zombies and female joggers -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingBikers2']/		@num">06</set>	<!-- feral bikers -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingMiners2']/		@num">06</set>	<!-- feral desert miner zombies -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingFlamers2']/		@num">06</set>	<!-- feral flamer zombies -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingLumberjacks2']/	@num">06</set>	<!-- feral lumberjacks -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='ZombieDogGroup']/			@num">08</set>	<!-- zombie dogs -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingMilitary2']/		@num">08</set>	<!-- feral soldiers, swat, stealth/ninja -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingLabCreatures2']/	@num">08</set>	<!-- feral albino lab creatures -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingCops2']/			@num">02</set>	<!-- feral fat cops -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingGiants']/		@num">02</set>	<!-- more giants -->
+<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn[@group='enWanderingDemolition']/	@num">01</set>	<!-- demolition zombies -->
+
+</ErrorNull>
