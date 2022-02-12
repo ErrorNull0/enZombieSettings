@@ -1,0 +1,64 @@
+<ErrorNull>
+
+	<!-- enBurntFemale1: replace g-string with default underwear shorts -->
+	<set xpath="/archetypes/archetype[contains(@name,'en_burntFemale1')]/base_mesh_parts/part[@mesh='female_base_legs']/texture[@name='female_legs_nude']/@name">female_legs</set>
+	
+	<!-- enBurntFemale2: cover chest with bikini top -->
+	<insertAfter xpath="/archetypes/archetype[contains(@name,'en_burntFemale2')]/base_mesh_parts/part[@mesh='female_base_chest']/texture[@name='female_torso_nude']">
+		<texture name="female_torso_bra" color="skin"/>
+	</insertAfter>
+	
+	<!-- enBurntFemaleFlamer: cover chest with bikini top and replace g-string with default underwear shorts -->	
+	<insertAfter xpath="/archetypes/archetype[contains(@name,'en_burntFemaleFlamer')]/base_mesh_parts/part[@mesh='female_base_chest']/texture[@name='female_torso_nude']">
+		<texture name="female_torso_bra" color="skin"/>
+	</insertAfter>
+	<set xpath="/archetypes/archetype[contains(@name,'en_burntFemaleFlamer')]/base_mesh_parts/part[@mesh='female_base_legs']/texture[@name='female_legs_nude']/@name">female_legs</set>
+	
+	<!-- enSnowSantaHelper1: replace g-string with default underwear shorts -->
+	<insertAfter xpath="/archetypes/archetype[contains(@name,'en_snowSantaHelper1')]/base_mesh_parts/part[@mesh='female_base_legs']">
+		<part slot="legs" layer="inner" mesh="skirt">
+			<texture name="skirt" color="120,20,20"/>
+			<texture name="male_torso_wound" color="128,0,0"/>
+			<texture name="unisex_face_dirt_overlay" color="128,0,0"/>
+		</part>
+	</insertAfter>
+	
+	<!-- enStripper1: cover chest with bikini top -->
+	<insertAfter xpath="/archetypes/archetype[contains(@name,'en_stripper1')]/base_mesh_parts/part[@mesh='female_base_chest']/texture[@name='female_torso_nude']">
+		<texture name="female_torso_bra" color="255,200,200"/>
+	</insertAfter>
+	
+	<!-- enStripper2: cover chest with bikini top -->
+	<insertAfter xpath="/archetypes/archetype[contains(@name,'en_stripper2')]/base_mesh_parts/part[@mesh='female_base_chest']/texture[@name='female_torso_nude']">
+		<texture name="female_torso_bra" color="60,60,60"/>
+	</insertAfter>
+
+	<!-- enStripper3: cover chest with bikini top -->
+	<insertAfter xpath="/archetypes/archetype[contains(@name,'en_stripper3')]/base_mesh_parts/part[@mesh='female_base_chest']/texture[@name='female_torso_nude']">
+		<texture name="female_torso_bra" color="90,90,90"/>
+	</insertAfter>
+	
+	<!-- enStripper4: cover chest with bikini top, replace g-string with default underwear shorts, remove unneeded bikini bottom texture -->
+	<insertAfter xpath="/archetypes/archetype[contains(@name,'en_stripper4')]/base_mesh_parts/part[@mesh='female_base_chest']/texture[@name='female_torso_nude']">
+		<texture name="female_torso_bra" color="225,235,255"/>
+	</insertAfter>
+	<set xpath="/archetypes/archetype[contains(@name,'en_stripper4')]/base_mesh_parts/part[@mesh='female_base_legs']/texture[@name='female_legs_nude']/@name">female_legs</set>
+	<remove xpath="/archetypes/archetype[contains(@name,'en_stripper4')]/base_mesh_parts/part[@slot='legs']/texture[@name='female_bikini_bottom']" />
+	
+	<!-- enWastelandFemale3: replace g-string with default underwear shorts -->
+	<set xpath="/archetypes/archetype[contains(@name,'en_wastelandFemale3')]/base_mesh_parts/part[@mesh='female_base_legs']/texture[@name='female_legs_nude']/@name">female_legs</set>
+	
+	<!-- enWastelandFemaleCrazy: cover chest with bikini top, and replace g-string with default underwear shorts -->
+	<insertAfter xpath="/archetypes/archetype[contains(@name,'en_wastelandFemaleCrazy')]/base_mesh_parts/part[@mesh='female_base_chest']/texture[@name='female_torso_nude']">
+		<texture name="female_torso_bra" color="180,190,210"/>
+	</insertAfter>
+	<set xpath="/archetypes/archetype[contains(@name,'en_wastelandFemaleCrazy')]/base_mesh_parts/part[@mesh='female_base_legs']/texture[@name='female_legs_nude']/@name">female_legs</set>
+	
+	<!-- enLabCreatureFemale: replace g-string with default underwear shorts -->
+	<insertAfter xpath="/archetypes/archetype[contains(@name,'en_LabCreatureFemale')]/base_mesh_parts/part[@mesh='female_base_chest']/texture[@name='female_torso_nude']">
+		<texture name="female_tanktop" color="skin"/>
+	</insertAfter>
+	<set xpath="/archetypes/archetype[contains(@name,'en_LabCreatureFemale')]/base_mesh_parts/part[@mesh='female_base_legs']/texture[@name='female_legs_nude']/@name">female_legs</set>
+	<remove xpath="/archetypes/archetype[contains(@name,'en_LabCreatureFemale')]/base_mesh_parts/part[@slot='legs']/texture[@name='female_bikini_bottom']" />
+	
+</ErrorNull>
