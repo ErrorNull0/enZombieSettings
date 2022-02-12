@@ -1,0 +1,314 @@
+<ErrorNull>
+
+<!--
+ZOMBIE ATTACK RANGE - Adjust the melee attack distance (range) of each zombie. The code below lists each zombie type. Most zombies have 3 lines, which represents the normal, feral, and radiated varieties. Near the right end of each line is an attribute called "value". This is the value that controls the zombie's attack RANGE - measured in blocks. A value of "2.0" means the zombie's reach is similar to the length of two blocks. Setting the range value less than 1.2 will cause issues. I think that'S due to the collision box sizes of the player and zombie - even when the zombie is standing right up against you, it will keep trying to get closer and never attempt to attack.
+-->
+
+<!-- FOREST females / school females -->
+<set xpath="/items/item[@name='enHand_0907_020_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_1821_030_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_2023_030_AAAAAAA']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- radiated -->
+
+<!-- FOREST males / forest camos / forest spiders / school males -->
+<set xpath="/items/item[@name='enHand_1109_020_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_2227_030_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_2530_030_AAAAAAA']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- radiated -->
+<set xpath="/items/item[@name='enHand_1016_020_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- crawler -->
+
+<!-- FOREST female hikers (holding unlit torches) -->
+<set xpath="/items/item[@name='enHand_2014_020_xAxAxAx']/property[@class='Action0']/property[@name='Range']/@value">2.0</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_3525_030_xAxAxAx']/property[@class='Action0']/property[@name='Range']/@value">2.0</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_4030_030_xAxAxAx']/property[@class='Action0']/property[@name='Range']/@value">2.0</set>		<!-- radiated -->
+
+<!-- FOREST male hikers (holding unlit torches) -->
+<set xpath="/items/item[@name='enHand_2216_020_xAxAxAx']/property[@class='Action0']/property[@name='Range']/@value">2.2</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_3929_030_xAxAxAx']/property[@class='Action0']/property[@name='Range']/@value">2.2</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_4434_030_xAxAxAx']/property[@class='Action0']/property[@name='Range']/@value">2.2</set>		<!-- radiated -->
+
+<!-- wildling female -->
+<set xpath="/items/item[@name='enHand_0705_025_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.5</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_1313_035_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.5</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_1620_035_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.5</set>		<!-- radiated -->
+
+<!-- DESERT females -->
+<set xpath="/items/item[@name='enHand_0907_005_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_1821_007_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_2023_007_AAAAAAA']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- radiated -->
+
+<!-- DESERT males / desert camos / desert spiders -->
+<set xpath="/items/item[@name='enHand_1109_005_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_2227_007_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_2530_007_AAAAAAA']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- radiated -->
+<set xpath="/items/item[@name='enHand_1016_005_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- crawler -->
+
+<!-- DESERT cowboys/cowgirls (bigger = farther reach) -->
+<set xpath="/items/item[@name='enHand_1515_005_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.75</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_3045_007_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.75</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_3550_007_AAAAAAA']/property[@class='Action0']/property[@name='Range']/@value">1.75</set>		<!-- radiated -->
+
+<!-- DESERT cowboy robber/bandit (holding double barrel shotgun) -->
+<set xpath="/items/item[@name='enHand_2518_005_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">2.1</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_5054_007_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">2.1</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_6058_007_AAAAAAA']/property[@class='Action0']/property[@name='Range']/@value">2.1</set>		<!-- radiated -->
+
+<!-- DESERT miner1 / utility male4 (holding iron shovel) -->
+<set xpath="/items/item[@name='enHand_2330_010_xBxBAAA']/property[@class='Action0']/property[@name='Range']/@value">2.5</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_4690_015_xBxBAAA']/property[@class='Action0']/property[@name='Range']/@value">2.5</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_5295_015_xBxBAAA']/property[@class='Action0']/property[@name='Range']/@value">2.5</set>		<!-- radiated -->
+
+<!-- DESERT miner2 (holding iron pickaxe) -->
+<set xpath="/items/item[@name='enHand_3050_010_xBxBAAA']/property[@class='Action0']/property[@name='Range']/@value">2.2</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_60150_015_xBxBAAA']/property[@class='Action0']/property[@name='Range']/@value">2.2</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_70160_015_xBxBAAA']/property[@class='Action0']/property[@name='Range']/@value">2.2</set>		<!-- radiated -->
+
+<!-- DESERT miner3 (holding steel pickaxe) -->
+<set xpath="/items/item[@name='enHand_3565_010_xBxBAAA']/property[@class='Action0']/property[@name='Range']/@value">2.4</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_70195_015_xBxBAAA']/property[@class='Action0']/property[@name='Range']/@value">2.4</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_80200_015_xBxBAAA']/property[@class='Action0']/property[@name='Range']/@value">2.4</set>		<!-- radiated -->
+
+<!-- DESERT oldtimer1 (holding unlit torch) -->
+<set xpath="/items/item[@name='enHand_1310_005_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">2.2</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_2630_007_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">2.2</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_3033_007_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">2.2</set>		<!-- radiated -->
+
+<!-- SNOW females -->
+<set xpath="/items/item[@name='enHand_1311_010_AxxxxBx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_2225_015_AxxxxBx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_2427_015_BBBBBBB']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- radiated -->
+
+<!-- SNOW males / snow camos / snow spiders -->
+<set xpath="/items/item[@name='enHand_1513_010_AxxxxBx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_2631_015_AxxxxBx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_2934_015_BBBBBBB']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- radiated -->
+<set xpath="/items/item[@name='enHand_1319_010_AxxxxBx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- crawler -->
+
+<!-- SNOW santa helper (holding candycane) -->
+<set xpath="/items/item[@name='enHand_1208_010_xxxxxxD']/property[@class='Action0']/property[@name='Range']/@value">1.9</set>		<!-- normal -->
+
+<!-- BURNT females -->
+<set xpath="/items/item[@name='enHand_0907_030_xxxBCxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_1821_045_xxxBCxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_2023_045_AAABCAA']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- radiated -->
+
+<!-- BURNT males -->
+<set xpath="/items/item[@name='enHand_1109_030_xxxBCxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_2227_045_xxxBCxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_2530_045_AAABCAA']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- radiated -->
+<set xpath="/items/item[@name='enHand_1016_030_xxxABxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- crawler -->
+
+<!-- BURNT female flamer (bigger = farther reach) -->
+<set xpath="/items/item[@name='enHand_2020_000_xxxABxx']/property[@class='Action0']/property[@name='Range']/@value">1.75</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_3050_000_xxxABxx']/property[@class='Action0']/property[@name='Range']/@value">1.75</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_3050_000_AAABBAA']/property[@class='Action0']/property[@name='Range']/@value">1.75</set>		<!-- radiated -->
+
+<!-- BURNT male flamer (bigger = farther reach) -->
+<set xpath="/items/item[@name='enHand_2525_000_xxxABxx']/property[@class='Action0']/property[@name='Range']/@value">1.75</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_40100_000_xxxABxx']/property[@class='Action0']/property[@name='Range']/@value">1.75</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_40200_000_AAABBAA']/property[@class='Action0']/property[@name='Range']/@value">1.75</set>		<!-- radiated -->
+
+<!-- WASTELAND females -->
+<set xpath="/items/item[@name='enHand_1614_050_AAABCBA']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_2528_075_AAABCBA']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_2023_045_AAABCAA']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- radiated -->
+
+<!-- WASTELAND males -->
+<set xpath="/items/item[@name='enHand_2730_075_BBBBCCB']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_2934_075_AAABCBA']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_3237_075_BBBBCCB']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- radiated -->
+<set xpath="/items/item[@name='enHand_1622_050_AAABCBA']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- crawler -->
+
+<!-- biker males (bigger = farther reach) -->
+<set xpath="/items/item[@name='enHand_2525_010_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.75</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_5075_015_AAAAAAA']/property[@class='Action0']/property[@name='Range']/@value">1.75</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_6085_015_BBBBBBB']/property[@class='Action0']/property[@name='Range']/@value">1.75</set>		<!-- radiated -->
+<set xpath="/items/item[@name='enHand_2121_010_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- crawler -->
+
+<!-- businessmen -->
+<set xpath="/items/item[@name='enHand_1109_010_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_2227_015_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_3237_075_BBBBCCB']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- radiated -->
+
+<!-- businesswomen -->
+<set xpath="/items/item[@name='enHand_0907_010_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_1821_015_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_2023_015_AAAAAAA']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- radiated -->
+
+<!-- businessmen / woman cralwer -->
+<set xpath="/items/item[@name='enHand_1016_010_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- crawler -->
+
+<!-- farmer male1 (bigger = farther reach) -->
+<set xpath="/items/item[@name='enHand_1520_010_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.7</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_2960_015_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.7</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_4069_015_AAAAAAA']/property[@class='Action0']/property[@name='Range']/@value">1.7</set>		<!-- radiated -->
+
+<!-- farmer female1 -->
+<set xpath="/items/item[@name='enHand_0908_010_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_1824_015_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_2025_015_AAAAAAA']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- radiated -->
+
+<!-- farmer male2/female2 (bigger = farther reach) -->
+<set xpath="/items/item[@name='enHand_2020_010_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.7</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_4060_015_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.7</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_5070_015_AAAAAAA']/property[@class='Action0']/property[@name='Range']/@value">1.7</set>		<!-- radiated -->
+
+<!-- farmer female3 (holding bone knife) -->
+<set xpath="/items/item[@name='enHand_1109_010_xxxxxxD']/property[@class='Action0']/property[@name='Range']/@value">1.9</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_2227_015_xxxxxxD']/property[@class='Action0']/property[@name='Range']/@value">1.9</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_2530_015_AAAAAAD']/property[@class='Action0']/property[@name='Range']/@value">1.9</set>		<!-- radiated -->
+
+<!-- Football male 1 and 2 -->
+<set xpath="/items/item[@name='enHand_1620_010_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.70</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_3060_015_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.70</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_4070_015_AAAAAAA']/property[@class='Action0']/property[@name='Range']/@value">1.70</set>		<!-- radiated -->
+
+<!-- Football male 3 and 4 (bigger = farther reach) -->
+<set xpath="/items/item[@name='enHand_2022_010_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.85</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_4066_015_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.85</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_4570_015_AAAAAAA']/property[@class='Action0']/property[@name='Range']/@value">1.85</set>		<!-- radiated -->
+
+<!-- hazmat females -->
+<set xpath="/items/item[@name='enHand_1007_100_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_2021_100_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_2223_100_AAAAAAA']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- radiated -->
+
+<!-- hazmat males -->
+<set xpath="/items/item[@name='enHand_1109_100_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_2227_100_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_2530_100_AAAAAAA']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- radiated -->
+
+<!-- hazmat male/female cralwer -->
+<set xpath="/items/item[@name='enHand_0916_100_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- crawler -->
+
+<!-- jogger females -->
+<set xpath="/items/item[@name='enHand_1209_010_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_2427_015_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_2630_015_AAAAAAA']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- radiated -->
+<set xpath="/items/item[@name='enHand_1116_010_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- crawler -->
+
+<!-- lab creature males (bigger = farther reach) -->
+<set xpath="/items/item[@name='enHand_1010_100_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- male1 -->
+<set xpath="/items/item[@name='enHand_2020_100_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.7</set>		<!-- male2 -->
+<set xpath="/items/item[@name='enHand_3040_100_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.8</set>		<!-- male3 -->
+<set xpath="/items/item[@name='enHand_4060_100_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.85</set>		<!-- male4 -->
+
+<!-- lab creature females (bigger = farther reach) -->
+<set xpath="/items/item[@name='enHand_0808_100_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- female1 -->
+<set xpath="/items/item[@name='enHand_1616_100_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.7</set>		<!-- female2 -->
+<set xpath="/items/item[@name='enHand_2424_100_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.75</set>		<!-- female3 -->
+<set xpath="/items/item[@name='enHand_3232_100_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.8</set>		<!-- female4 -->
+
+<!-- lumberjacks (bigger = farther reach) -->
+<set xpath="/items/item[@name='enHand_2120_010_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.85</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_4260_015_AAAAAAA']/property[@class='Action0']/property[@name='Range']/@value">1.85</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_5270_015_BBBBBBB']/property[@class='Action0']/property[@name='Range']/@value">1.85</set>		<!-- radiated -->
+<set xpath="/items/item[@name='enHand_1616_010_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.85</set>		<!-- crawler -->
+
+<!-- punk male/female 1 (holding knives) -->
+<set xpath="/items/item[@name='enHand_1605_010_fffffff']/property[@class='Action0']/property[@name='Range']/@value">2.0</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_3015_015_fffffff']/property[@class='Action0']/property[@name='Range']/@value">2.0</set>		<!-- feral -->
+
+<!-- punk male/female 2 (holding clubs) -->
+<set xpath="/items/item[@name='enHand_2520_010_xBxBAAx']/property[@class='Action0']/property[@name='Range']/@value">2.2</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_4650_015_xBxBAAx']/property[@class='Action0']/property[@name='Range']/@value">2.2</set>		<!-- feral -->
+
+<!-- punk male/female 3 (holding club and bone knife) -->
+<set xpath="/items/item[@name='enHand_2220_010_xBxBAAB']/property[@class='Action0']/property[@name='Range']/@value">2.2</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_4256_015_xBxBAAB']/property[@class='Action0']/property[@name='Range']/@value">2.2</set>		<!-- feral -->
+
+<!-- punk male/female 4 (holding bone knives) -->
+<set xpath="/items/item[@name='enHand_1305_010_fffffff']/property[@class='Action0']/property[@name='Range']/@value">2.0</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_2514_015_fffffff']/property[@class='Action0']/property[@name='Range']/@value">2.0</set>		<!-- feral -->
+
+<!-- screamer1 -->
+<set xpath="/items/item[@name='enHand_1210_010_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_2430_015_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_2535_015_AAAAAAA']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- radiated -->
+
+<!-- screamer2 -->
+<set xpath="/items/item[@name='enHand_0906_010_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.5</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_1818_015_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.5</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_2022_015_AAAAAAA']/property[@class='Action0']/property[@name='Range']/@value">1.5</set>		<!-- radiated -->
+
+<!-- screamer3 -->
+<set xpath="/items/item[@name='enHand_0806_010_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_1618_015_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_1822_015_AAAAAAA']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- radiated -->
+
+<!-- soldier females -->
+<set xpath="/items/item[@name='enHand_1736_010_xAAAAAA']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_34108_015_xAAAAAA']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_40118_015_ABBBAAA']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- radiated -->
+
+<!-- soldier males -->
+<set xpath="/items/item[@name='enHand_2040_010_xAAAAAA']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_40120_015_xAAAAAA']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_45130_015_ABBBAAA']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- radiated -->
+
+<!-- soldier crawler -->
+<set xpath="/items/item[@name='enHand_1630_010_xAAAAAA']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- crawler -->
+
+<!-- stealth male1 (holding hunting knives) -->
+<set xpath="/items/item[@name='enHand_2005_010_fffffff']/property[@class='Action0']/property[@name='Range']/@value">1.8</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_3510_010_fffffff']/property[@class='Action0']/property[@name='Range']/@value">1.8</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_4015_010_fffffff']/property[@class='Action0']/property[@name='Range']/@value">1.8</set>		<!-- radiated -->
+
+<!-- swat male (holding stun baton) -->
+<set xpath="/items/item[@name='enHand_3040_010_xBABAAA']/property[@class='Action0']/property[@name='Range']/@value">2.3</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_60120_015_xBABAAA']/property[@class='Action0']/property[@name='Range']/@value">2.3</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_70130_015_xBABAAA']/property[@class='Action0']/property[@name='Range']/@value">2.3</set>		<!-- radiated -->
+
+<!-- strippers -->
+<set xpath="/items/item[@name='enHand_0907_100_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_1821_100_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_2023_100_AAAAAAA']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- radiated -->
+<set xpath="/items/item[@name='enHand_1016_100_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- crawler -->
+
+<!-- utility female1 (holding nailguns) -->
+<set xpath="/items/item[@name='enHand_1620_010_xxxxxxA']/property[@class='Action0']/property[@name='Range']/@value">2.0</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_3260_015_xxxxxxA']/property[@class='Action0']/property[@name='Range']/@value">2.0</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_3565_015_AAAAAAB']/property[@class='Action0']/property[@name='Range']/@value">2.0</set>		<!-- radiated -->
+
+<!-- utility female2 (holding bucket) -->
+<set xpath="/items/item[@name='enHand_1420_010_xxxxxxA']/property[@class='Action0']/property[@name='Range']/@value">2.0</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_2860_015_xxxxxxA']/property[@class='Action0']/property[@name='Range']/@value">2.0</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_3065_015_AAAAAAB']/property[@class='Action0']/property[@name='Range']/@value">2.0</set>		<!-- radiated -->
+
+<!-- utility male 1 and 2 -->
+<set xpath="/items/item[@name='enHand_1130_010_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_2290_015_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_2595_015_AAAAAAA']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- radiated -->
+<set xpath="/items/item[@name='enHand_0925_010_xxxxxxx']/property[@class='Action0']/property[@name='Range']/@value">1.65</set>		<!-- crawler -->
+
+<!-- utility male3 (holding claw hammer) -->
+<set xpath="/items/item[@name='enHand_2045_010_ABBBBBB']/property[@class='Action0']/property[@name='Range']/@value">2.0</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_40120_015_ABBBBBB']/property[@class='Action0']/property[@name='Range']/@value">2.0</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_50130_015_ABBBBBB']/property[@class='Action0']/property[@name='Range']/@value">2.0</set>		<!-- radiated -->
+
+<!-- utility male5 (holding iron sledge hammer) -->
+<set xpath="/items/item[@name='enHand_3075_010_xCCBABA']/property[@class='Action0']/property[@name='Range']/@value">2.4</set>		<!-- normal -->
+<set xpath="/items/item[@name='enHand_60220_015_xCCBABA']/property[@class='Action0']/property[@name='Range']/@value">2.4</set>		<!-- feral -->
+<set xpath="/items/item[@name='enHand_65230_015_ACCBABA']/property[@class='Action0']/property[@name='Range']/@value">2.4</set>		<!-- radiated -->
+
+<!-- GOBLINS -->
+<set xpath="/items/item[@name='enHand_0605_000_bbbbbbb']/property[@class='Action0']/property[@name='Range']/@value">1.2</set>		<!-- forest (bare hands) -->
+<set xpath="/items/item[@name='enHand_0706_000_abxxccb']/property[@class='Action0']/property[@name='Range']/@value">1.7</set>		<!-- desert (holding bones) -->
+<set xpath="/items/item[@name='enHand_0807_000_Abxxcbb']/property[@class='Action0']/property[@name='Range']/@value">1.2</set>		<!-- snow (bare hands) -->
+<set xpath="/items/item[@name='enHand_0807_000_bbbxabb']/property[@class='Action0']/property[@name='Range']/@value">1.8</set>		<!-- burnt (holding torches) -->
+<set xpath="/items/item[@name='enHand_1008_000_AxxxaaA']/property[@class='Action0']/property[@name='Range']/@value">1.7</set>		<!-- wasteland (holding bone knives) -->
+
+<!-- GIANTS -->
+<set xpath="/items/item[@name='enHand_40500_000_xBBBBBx']/property[@class='Action0']/property[@name='Range']/@value">2.0</set>		<!-- forest (bare hands) -->
+<set xpath="/items/item[@name='enHand_40500_000_ABBBBBA']/property[@class='Action0']/property[@name='Range']/@value">2.6</set>		<!-- desert (holding cactus) -->
+<set xpath="/items/item[@name='enHand_50600_000_ABBBBBA']/property[@class='Action0']/property[@name='Range']/@value">2.0</set>		<!-- snow (bare hands) -->
+<set xpath="/items/item[@name='enHand_50500_000_xBBCDBx']/property[@class='Action0']/property[@name='Range']/@value">2.7</set>		<!-- burnt (holding torch) -->
+<set xpath="/items/item[@name='enHand_60650_000_ACCCCCB']/property[@class='Action0']/property[@name='Range']/@value">2.7</set>		<!-- wasteland (holding iron club) -->
+
+<!-- Businessman Boss (holding computer monitor) -->
+<set xpath="/items/item[@name='enHand_4050_015_AAAAAAA']/property[@class='Action0']/property[@name='Range']/@value">2.6</set>
+
+<!-- Evil Scientist Boss for the Snufkin Raid quest (holding stun baton) -->
+<set xpath="/items/item[@name='meleeHandSnufkin']/property[@class='Action0']/property[@name='Range']/@value">2.8</set>
+
+
+</ErrorNull>
+
