@@ -5,24 +5,24 @@ ZOMBIE RANDOM SPAWN RATE (Random Spawning in Wilderness)
 
 Adjust the amount of zombies that randomly spawn outside in the wilderness in each biome. 
 
-There are 5 biomes: pine forest, desert, snow, burnt forest, and wasteland. Each biome contains 10 zombie groups: 5 of those groups spawn during the day, and the other 5 spawn at night. To modify the spawn rate of each group, go to the end (right) of each line and modify the "maxcount" value. The current values you see now are the defaults. Example: To increase the amount of zombies that sapwn by 2x in the pine forest at night in downtown areas, look for the line that contains entitygroup "PineforestZombiesNightDowntown" and change maxcount from "5" to "10" like below:
+There are 5 biomes: pine forest, desert, snow, burnt forest, and wasteland. Each biome contains 10 zombie groups: 5 of those groups spawn during the day, and the other 5 spawn at night. To modify the spawn rate of each group, go to the far right of each line and modify the "maxcount" value. The current values you see now are the defaults for enZombies. Example: To increase the amount of zombies that sapwn by 2x in the Pine Forest at night in downtown areas, look for the line that contains entitygroup "PineforestZombiesNightDowntown" and change maxcount from "5" to "10" like below:
 
 <set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='PineforestZombiesNightDowntown']/@maxcount">10</set>
 
-Note: Aggro animals are agressive animals that attack you: dogs, bears, and wolves. Game animals are food resrouce animals like chicken, boars, stag, etc.
+Note: Aggro animals are agressive animals that attack you: dogs, bears, and wolves. Game animals are food resrouce animals like chickens, boars, stag, etc.
 -->
 
 <!-- PINE FOREST -->
-<set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='PineforestZombiesDay'			]/@maxcount">12</set>
-<set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='PineforestZombiesDayCity'		]/@maxcount">13</set>
-<set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='PineforestZombiesDayDowntown'	]/@maxcount">14</set>
-<set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='PineforestAnimalsAggroDay'		]/@maxcount">11</set>
-<set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='PineforestAnimalsGameDay'		]/@maxcount">11</set>
-<set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='PineforestZombiesNight'		]/@maxcount">13</set>
-<set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='PineforestZombiesNightCity'	]/@maxcount">14</set>
-<set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='PineforestZombiesNightDowntown']/@maxcount">15</set>
-<set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='PineforestAnimalsAggroNight'	]/@maxcount">11</set>
-<set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='PineforestAnimalsGameNight'	]/@maxcount">11</set>
+<set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='PineforestZombiesDay'			]/@maxcount">2</set>
+<set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='PineforestZombiesDayCity'		]/@maxcount">3</set>
+<set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='PineforestZombiesDayDowntown'	]/@maxcount">4</set>
+<set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='PineforestAnimalsAggroDay'		]/@maxcount">1</set>
+<set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='PineforestAnimalsGameDay'		]/@maxcount">1</set>
+<set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='PineforestZombiesNight'		]/@maxcount">3</set>
+<set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='PineforestZombiesNightCity'	]/@maxcount">4</set>
+<set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='PineforestZombiesNightDowntown']/@maxcount">5</set>
+<set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='PineforestAnimalsAggroNight'	]/@maxcount">1</set>
+<set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='PineforestAnimalsGameNight'	]/@maxcount">1</set>
 
 <!-- DESERT -->
 <set xpath="/spawning/biome[@name='desert']/spawn[@entitygroup='DesertZombiesDay'				]/@maxcount">2</set>
@@ -65,12 +65,10 @@ Note: Aggro animals are agressive animals that attack you: dogs, bears, and wolv
 <set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='WastelandZombiesDayCity'			]/@maxcount">4</set>
 <set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='WastelandZombiesDayDowntown'		]/@maxcount">5</set>
 <set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='WastelandAnimalsAggroDay'		]/@maxcount">1</set>
-<set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='WastelandAnimalsGameDay'			]/@maxcount">1</set>
 <set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='WastelandZombiesNight'			]/@maxcount">4</set>
 <set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='WastelandZombiesNightCity'		]/@maxcount">5</set>
 <set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='WastelandZombiesNightDowntown'	]/@maxcount">6</set>
 <set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='WastelandAnimalsAggroNight'		]/@maxcount">1</set>
-<set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='WastelandAnimalsGameNight'		]/@maxcount">1</set>
 	
 
 
@@ -79,11 +77,11 @@ ZOMBIE RANDOM RE-SPAWN RATE (Random Spawning in Wilderness)
 
 Adjust the re-spawn rate of zombies that randomly appear in the wilderness in each biome.
 
-There are 5 biomes: pine forest, desert, snow, burnt forest, and wasteland. Each biome contains 10 zombie groups: 5 of those groups spawn during the day, and the other 5 spawn at night. To modify the re-spawn rate of each group, go to the end (right) of each line and modify the "respawndelay" value. The current values you see now are the defaults, and they represent the time in days. For example, to increase the time it takes by 2x for zombies to re-sapwn in the pine forest at night in city areas, look for the line that contains entitygroup "PineforestZombiesNightCity" and change respawndelay from "0.25" to "0.5" like below:
+There are 5 biomes: pine forest, desert, snow, burnt forest, and wasteland. Each biome contains 10 zombie groups: 5 of those groups spawn during the day, and the other 5 spawn at night. To modify the re-spawn rate of each group, go to the far right of each line and modify the "respawndelay" value. The current values you see are the defaults for enZombies, and they represent days. A respawn rate of 0.5 means the zombie is elegible to respawn every 12 hrs. A respawn rate of 2.0 means the zombie is elegible to respawn every 2 days. For example, to decrease the time it takes in half for zombies to re-sapwn in the pine forest at night in city areas, look for the line that contains entitygroup "PineforestZombiesNight" and change respawndelay from "0.50" to "0.25" like below:
 
-<set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='PineforestZombiesNightCity']/@respawndelay">0.5</set>
+<set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='PineforestZombiesNight']/@respawndelay">0.25</set>
 
-Note: Aggro animals are agressive animals that attack you: dogs, bears, and wolves. Game animals are food resrouce animals like chicken, boars, stag, etc.
+Note: Aggro animals are agressive animals that attack you: dogs, bears, and wolves. Game animals are food resrouce animals like chickens, boars, stag, etc.
 -->
 
 <!-- PINE FOREST -->
@@ -139,11 +137,9 @@ Note: Aggro animals are agressive animals that attack you: dogs, bears, and wolv
 <set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='WastelandZombiesDayCity'			]/@respawndelay">0.5</set>
 <set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='WastelandZombiesDayDowntown'		]/@respawndelay">0.25</set>
 <set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='WastelandAnimalsAggroDay'		]/@respawndelay">1.0</set>
-<set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='WastelandAnimalsGameDay'			]/@respawndelay">1.0</set>
 <set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='WastelandZombiesNight'			]/@respawndelay">0.4</set>
 <set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='WastelandZombiesNightCity'		]/@respawndelay">0.2</set>
 <set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='WastelandZombiesNightDowntown'	]/@respawndelay">0.08</set>
 <set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='WastelandAnimalsAggroNight'		]/@respawndelay">0.75</set>
-<set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='WastelandAnimalsGameNight'		]/@respawndelay">1.0</set>
 	
 </ErrorNull>
