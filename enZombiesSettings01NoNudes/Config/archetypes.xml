@@ -14,13 +14,28 @@
 	</insertAfter>
 	<set xpath="/archetypes/archetype[contains(@name,'en_burntFemaleFlamer')]/base_mesh_parts/part[@mesh='female_base_legs']/texture[@name='female_legs_nude']/@name">female_legs</set>
 	
-	<!-- enSnowSantaHelper1: replace g-string with default underwear shorts -->
+	<!-- enSnowSantaHelper1: replace g-string with skirt -->
 	<insertAfter xpath="/archetypes/archetype[contains(@name,'en_snowSantaHelper1')]/base_mesh_parts/part[@mesh='female_base_legs']">
 		<part slot="legs" layer="inner" mesh="skirt">
 			<texture name="skirt" color="120,20,20"/>
 			<texture name="male_torso_wound" color="128,0,0"/>
 			<texture name="unisex_face_dirt_overlay" color="128,0,0"/>
 		</part>
+	</insertAfter>
+	
+	<!-- enPatientFemale1: replace g-string with shorts -->
+	<insertAfter xpath="/archetypes/archetype[contains(@name,'en_patientFemale1')]/base_mesh_parts/part[@mesh='female_base_legs']/texture[@name='female_bikini_bottom']">
+		<texture name="female_shorts" color="220,220,220"/>
+	</insertAfter>
+	
+	<!-- enPatientFemale2: replace g-string with shorts -->
+	<insertAfter xpath="/archetypes/archetype[contains(@name,'en_patientFemale2')]/base_mesh_parts/part[@mesh='female_base_legs']/texture[@name='female_bikini_bottom']">
+		<texture name="female_shorts" color="220,220,220"/>
+	</insertAfter>
+	
+	<!-- enPatientFemale3: replace g-string with shorts -->
+	<insertAfter xpath="/archetypes/archetype[contains(@name,'en_patientFemale3')]/base_mesh_parts/part[@mesh='female_base_legs']/texture[@name='female_bikini_bottom']">
+		<texture name="female_shorts" color="180,180,180"/>
 	</insertAfter>
 	
 	<!-- enStripper1: cover chest with bikini top -->
