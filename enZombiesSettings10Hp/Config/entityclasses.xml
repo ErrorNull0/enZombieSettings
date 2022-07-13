@@ -1,0 +1,332 @@
+<ErrorNull>
+
+<!-- 
+ZOMBIE HP: Each row represents one zombie type. Two bits of info will help you identify which zombie a particluar row belongs to: 1) look for "entity_class @name=" near the left of each row, which is the zombie's name as defined in the entity xml code. 2) Alos, look toward the right end of the row which shows the name of the zombie as it displys in-game.
+
+To modify the zombie's HP value, look toward the right of each row for "HealthMax @value" - change that to whichever value you wish.
+-->
+
+<!-- *** All enZombie HP Values *** -->
+
+<set xpath="/entity_classes/entity_class[@name='enBiker1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">280</set> <!-- Abobo -->
+<set xpath="/entity_classes/entity_class[@name='enBiker2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">280</set> <!-- Buffalo Bill -->
+<set xpath="/entity_classes/entity_class[@name='enBiker3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">320</set> <!-- Moose -->
+<set xpath="/entity_classes/entity_class[@name='enBiker4']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">320</set> <!-- Roper -->
+<set xpath="/entity_classes/entity_class[@name='enBurntFemale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Crispy Cara -->
+<set xpath="/entity_classes/entity_class[@name='enBurntFemale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Burnt Bonnie -->
+<set xpath="/entity_classes/entity_class[@name='enBurntFemaleFlamer']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">250</set> <!-- Flaming Freda -->
+<set xpath="/entity_classes/entity_class[@name='enBurntGiant']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">1300</set> <!-- Red Giant -->
+<set xpath="/entity_classes/entity_class[@name='enBurntGoblin1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">50</set> <!-- Red Goblin1 -->
+<set xpath="/entity_classes/entity_class[@name='enBurntGoblin2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">65</set> <!-- Red Goblin2 -->
+<set xpath="/entity_classes/entity_class[@name='enBurntGoblin3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">55</set> <!-- Red Goblin3 -->
+<set xpath="/entity_classes/entity_class[@name='enBurntMale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Toasty Tom -->
+<set xpath="/entity_classes/entity_class[@name='enBurntMale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Ashy Aaron -->
+<set xpath="/entity_classes/entity_class[@name='enBurntMaleFlamer']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">300</set> <!-- Smokin Smith -->
+<set xpath="/entity_classes/entity_class[@name='enBusinessman1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">140</set> <!-- Zuckergerg -->
+<set xpath="/entity_classes/entity_class[@name='enBusinessman2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Musk -->
+<set xpath="/entity_classes/entity_class[@name='enBusinessman3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">160</set> <!-- Bloomberg -->
+<set xpath="/entity_classes/entity_class[@name='enBusinessman4']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Bezos -->
+<set xpath="/entity_classes/entity_class[@name='enBusinessmanBoss']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">1050</set> <!-- CEO Chairman Cho -->
+<set xpath="/entity_classes/entity_class[@name='enBusinesswoman1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">130</set> <!-- Bossy Becky -->
+<set xpath="/entity_classes/entity_class[@name='enBusinesswoman2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Pushy Pam -->
+<set xpath="/entity_classes/entity_class[@name='enDesertCowboy1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">170</set> <!-- Clint -->
+<set xpath="/entity_classes/entity_class[@name='enDesertCowboy2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">160</set> <!-- Jeb -->
+<set xpath="/entity_classes/entity_class[@name='enDesertCowboy3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">190</set> <!-- Ringo -->
+<set xpath="/entity_classes/entity_class[@name='enDesertCowgirl1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">135</set> <!-- Josie -->
+<set xpath="/entity_classes/entity_class[@name='enDesertCowgirl2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">135</set> <!-- Bailey -->
+<set xpath="/entity_classes/entity_class[@name='enDesertFemale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Sweaty Sasha -->
+<set xpath="/entity_classes/entity_class[@name='enDesertFemale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">135</set> <!-- Sandy Sara -->
+<set xpath="/entity_classes/entity_class[@name='enDesertFemale3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Roasty Rhonda -->
+<set xpath="/entity_classes/entity_class[@name='enDesertFemale4']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Hobo Helen -->
+<set xpath="/entity_classes/entity_class[@name='enDesertGiant']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">1250</set> <!-- Desert Giant -->
+<set xpath="/entity_classes/entity_class[@name='enDesertGoblin1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">50</set> <!-- Desert Goblin1 -->
+<set xpath="/entity_classes/entity_class[@name='enDesertGoblin2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">65</set> <!-- Desert Goblin2 -->
+<set xpath="/entity_classes/entity_class[@name='enDesertGoblin3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">55</set> <!-- Desert Goblin3 -->
+<set xpath="/entity_classes/entity_class[@name='enDesertMale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Dusty Devon -->
+<set xpath="/entity_classes/entity_class[@name='enDesertMale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Baked Benson -->
+<set xpath="/entity_classes/entity_class[@name='enDesertMale3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">140</set> <!-- Hobo Henry -->
+<set xpath="/entity_classes/entity_class[@name='enDesertMale4']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Parched Pete -->
+<set xpath="/entity_classes/entity_class[@name='enDesertMiner1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">170</set> <!-- Shovelface Shane -->
+<set xpath="/entity_classes/entity_class[@name='enDesertMiner2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">180</set> <!-- Picky Pierre -->
+<set xpath="/entity_classes/entity_class[@name='enDesertMiner3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">185</set> <!-- Pickaxe Pedro -->
+<set xpath="/entity_classes/entity_class[@name='enDesertOldtimer1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- OldTimer Owen -->
+<set xpath="/entity_classes/entity_class[@name='enDesertSpider']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Hoppy Jose -->
+<set xpath="/entity_classes/entity_class[@name='enElementalIronCrawler']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">80</set> <!-- Iron Elemental Crawler -->
+<set xpath="/entity_classes/entity_class[@name='enElementalIronWalker']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Iron Elemental -->
+<set xpath="/entity_classes/entity_class[@name='enElementalOrganicCrawler']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">80</set> <!-- Putrefied Crawler -->
+<set xpath="/entity_classes/entity_class[@name='enElementalRadiatedWalker']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">280</set> <!-- Radiated Elemental -->
+<set xpath="/entity_classes/entity_class[@name='enElementalSandCrawler']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">80</set> <!-- Sand Elemental Crawler -->
+<set xpath="/entity_classes/entity_class[@name='enElementalSandWalker']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Sand Elemental -->
+<set xpath="/entity_classes/entity_class[@name='enElementalStoneCrawler']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">80</set> <!-- Stone Elemental Crawler -->
+<set xpath="/entity_classes/entity_class[@name='enElementalStoneWalker']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Stone Elemental -->
+<set xpath="/entity_classes/entity_class[@name='enFarmerFemale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">120</set> <!-- Pumpkin -->
+<set xpath="/entity_classes/entity_class[@name='enFarmerFemale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">300</set> <!-- Helga -->
+<set xpath="/entity_classes/entity_class[@name='enFarmerFemale3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">120</set> <!-- Stabby Starla -->
+<set xpath="/entity_classes/entity_class[@name='enFarmerMale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Papa Pablo -->
+<set xpath="/entity_classes/entity_class[@name='enFarmerMale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">160</set> <!-- Big Billy -->
+<set xpath="/entity_classes/entity_class[@name='enFootballMale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">270</set> <!-- Brady -->
+<set xpath="/entity_classes/entity_class[@name='enFootballMale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">270</set> <!-- Montana -->
+<set xpath="/entity_classes/entity_class[@name='enFootballMale3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">300</set> <!-- Mahomes -->
+<set xpath="/entity_classes/entity_class[@name='enFootballMale4']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">300</set> <!-- Slye -->
+<set xpath="/entity_classes/entity_class[@name='enForestFemale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Daisy -->
+<set xpath="/entity_classes/entity_class[@name='enForestFemale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">135</set> <!-- Rose -->
+<set xpath="/entity_classes/entity_class[@name='enForestFemale3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">120</set> <!-- Violet -->
+<set xpath="/entity_classes/entity_class[@name='enForestFemale4']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">160</set> <!-- Dahlia -->
+<set xpath="/entity_classes/entity_class[@name='enForestFemale5']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">135</set> <!-- Ivy -->
+<set xpath="/entity_classes/entity_class[@name='enForestGiant']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">1200</set> <!-- Forest Giant -->
+<set xpath="/entity_classes/entity_class[@name='enForestGoblin1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">50</set> <!-- Forest Goblin1 -->
+<set xpath="/entity_classes/entity_class[@name='enForestGoblin2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">65</set> <!-- Forest Goblin2 -->
+<set xpath="/entity_classes/entity_class[@name='enForestGoblin3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">55</set> <!-- Forest Goblin3 -->
+<set xpath="/entity_classes/entity_class[@name='enForestHikerFemale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Hiker Heidy -->
+<set xpath="/entity_classes/entity_class[@name='enForestHikerFemale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">130</set> <!-- Hiker Haley -->
+<set xpath="/entity_classes/entity_class[@name='enForestHikerMale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Hiker Hans -->
+<set xpath="/entity_classes/entity_class[@name='enForestHikerMale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">160</set> <!-- Hiker Hudson -->
+<set xpath="/entity_classes/entity_class[@name='enForestMale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Spruce -->
+<set xpath="/entity_classes/entity_class[@name='enForestMale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">160</set> <!-- Oak -->
+<set xpath="/entity_classes/entity_class[@name='enForestMale3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">170</set> <!-- Googly Gonzo -->
+<set xpath="/entity_classes/entity_class[@name='enForestMale4']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">140</set> <!-- Larch -->
+<set xpath="/entity_classes/entity_class[@name='enForestMale5']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">160</set> <!-- Birch -->
+<set xpath="/entity_classes/entity_class[@name='enForestMaleCamo']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Grassy Greg -->
+<set xpath="/entity_classes/entity_class[@name='enForestSpider']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Jumpy Jack -->
+<set xpath="/entity_classes/entity_class[@name='enHazmatFemale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">130</set> <!-- Infected Eva -->
+<set xpath="/entity_classes/entity_class[@name='enHazmatFemale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Poisoned Paula -->
+<set xpath="/entity_classes/entity_class[@name='enHazmatMale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">140</set> <!-- Covid Carter -->
+<set xpath="/entity_classes/entity_class[@name='enHazmatMale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">160</set> <!-- Viral Vinnie -->
+<set xpath="/entity_classes/entity_class[@name='enHazmatMale3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- PPE Patrick -->
+<set xpath="/entity_classes/entity_class[@name='enJoggerFemale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">135</set> <!-- Jogging Jenny -->
+<set xpath="/entity_classes/entity_class[@name='enJoggerFemale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">135</set> <!-- Running Rachel -->
+<set xpath="/entity_classes/entity_class[@name='enJoggerFemale3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">135</set> <!-- Sprinty Sue -->
+<set xpath="/entity_classes/entity_class[@name='enJoggerFemale4']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">135</set> <!-- Trotting Tracey -->
+<set xpath="/entity_classes/entity_class[@name='enJoggerFemale5']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">135</set> <!-- Shuffling Sheila -->
+<set xpath="/entity_classes/entity_class[@name='enLab196']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">130</set> <!-- Dr Delta -->
+<set xpath="/entity_classes/entity_class[@name='enLabCreatureFemale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">600</set> <!-- Specimen vF1 -->
+<set xpath="/entity_classes/entity_class[@name='enLabCreatureFemale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">1200</set> <!-- Specimen vF2 -->
+<set xpath="/entity_classes/entity_class[@name='enLabCreatureFemale3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">1800</set> <!-- Specimen vF3 -->
+<set xpath="/entity_classes/entity_class[@name='enLabCreatureFemale4']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">2400</set> <!-- Specimen vF4 -->
+<set xpath="/entity_classes/entity_class[@name='enLabCreatureMale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">720</set> <!-- Specimen vM1 -->
+<set xpath="/entity_classes/entity_class[@name='enLabCreatureMale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">1440</set> <!-- Specimen vM2 -->
+<set xpath="/entity_classes/entity_class[@name='enLabCreatureMale3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">2160</set> <!-- Specimen vM3 -->
+<set xpath="/entity_classes/entity_class[@name='enLabCreatureMale4']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">2880</set> <!-- Specimen vM4 -->
+<set xpath="/entity_classes/entity_class[@name='enLabFemale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Sally SARS -->
+<set xpath="/entity_classes/entity_class[@name='enLumberjack1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">280</set> <!-- Lumber Larry -->
+<set xpath="/entity_classes/entity_class[@name='enLumberjack2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">260</set> <!-- Logger Loyd -->
+<set xpath="/entity_classes/entity_class[@name='enLumberjack3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">280</set> <!-- Chopper Chad -->
+<set xpath="/entity_classes/entity_class[@name='enLumberjack4']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">260</set> <!-- Chainsaw Charlie -->
+<set xpath="/entity_classes/entity_class[@name='enNurseHD']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Nurse Nora -->
+<set xpath="/entity_classes/entity_class[@name='enPatientFemale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Liverjabbed Lilly -->
+<set xpath="/entity_classes/entity_class[@name='enPatientFemale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">250</set> <!-- Prego Polly -->
+<set xpath="/entity_classes/entity_class[@name='enPatientFemale3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Kneepain Nikki -->
+<set xpath="/entity_classes/entity_class[@name='enPatientMale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Kneebroke Nelson -->
+<set xpath="/entity_classes/entity_class[@name='enPatientMale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">270</set> <!-- Heartattack Hugo -->
+<set xpath="/entity_classes/entity_class[@name='enPunkFemale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">130</set> <!-- Edgy Edi -->
+<set xpath="/entity_classes/entity_class[@name='enPunkFemale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">140</set> <!-- Bashy Bianca -->
+<set xpath="/entity_classes/entity_class[@name='enPunkFemale3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">130</set> <!-- Pissy Paige -->
+<set xpath="/entity_classes/entity_class[@name='enPunkFemale4']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">130</set> <!-- Stabby Stephie -->
+<set xpath="/entity_classes/entity_class[@name='enPunkMale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Knifey Nico -->
+<set xpath="/entity_classes/entity_class[@name='enPunkMale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">170</set> <!-- Clubby Cristo -->
+<set xpath="/entity_classes/entity_class[@name='enPunkMale3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Hangry Hank -->
+<set xpath="/entity_classes/entity_class[@name='enPunkMale4']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Pokey Peng -->
+<set xpath="/entity_classes/entity_class[@name='enSchoolFemale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Brainy Brenda -->
+<set xpath="/entity_classes/entity_class[@name='enSchoolFemale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Gossipy Gwen -->
+<set xpath="/entity_classes/entity_class[@name='enSchoolMale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Geeky Gabe -->
+<set xpath="/entity_classes/entity_class[@name='enSchoolMale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Jocky Jake -->
+<set xpath="/entity_classes/entity_class[@name='enScientistBoss1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">1200</set> <!-- Evil Scientist -->
+<set xpath="/entity_classes/entity_class[@name='enScreamer196']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Korea Karen -->
+<set xpath="/entity_classes/entity_class[@name='enScreamer1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Walmart Karen -->
+<set xpath="/entity_classes/entity_class[@name='enScreamer2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">80</set> <!-- Kmart Karen -->
+<set xpath="/entity_classes/entity_class[@name='enScreamer3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">80</set> <!-- Costco Karen -->
+<set xpath="/entity_classes/entity_class[@name='enSnowFemale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">163</set> <!-- Frigid Freda -->
+<set xpath="/entity_classes/entity_class[@name='enSnowFemale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">176</set> <!-- Icy Irene -->
+<set xpath="/entity_classes/entity_class[@name='enSnowFemale3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">176</set> <!-- Chilly Chelsea -->
+<set xpath="/entity_classes/entity_class[@name='enSnowFemale4']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">163</set> <!-- Frozen Fey -->
+<set xpath="/entity_classes/entity_class[@name='enSnowFemale5']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">163</set> <!-- Arctic Ana -->
+<set xpath="/entity_classes/entity_class[@name='enSnowGiant']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">1350</set> <!-- Snow Giant -->
+<set xpath="/entity_classes/entity_class[@name='enSnowGoblin1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">65</set> <!-- Snow Goblin1 -->
+<set xpath="/entity_classes/entity_class[@name='enSnowGoblin2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">85</set> <!-- Snow Goblin2 -->
+<set xpath="/entity_classes/entity_class[@name='enSnowGoblin3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">72</set> <!-- Snow Goblin3 -->
+<set xpath="/entity_classes/entity_class[@name='enSnowMale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">195</set> <!-- Frosty Frank -->
+<set xpath="/entity_classes/entity_class[@name='enSnowMale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">202</set> <!-- Snowy Stu -->
+<set xpath="/entity_classes/entity_class[@name='enSnowMale3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">221</set> <!-- Googly Gordon -->
+<set xpath="/entity_classes/entity_class[@name='enSnowMale4']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">190</set> <!-- Freezing Franz -->
+<set xpath="/entity_classes/entity_class[@name='enSnowMale5']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">202</set> <!-- Slushy Sven -->
+<set xpath="/entity_classes/entity_class[@name='enSnowMale6']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">221</set> <!-- Blizzardy Byron -->
+<set xpath="/entity_classes/entity_class[@name='enSnowMaleCamo']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">195</set> <!-- Snowy Snyder -->
+<set xpath="/entity_classes/entity_class[@name='enSnowSanta1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">400</set> <!-- Sussy Santa -->
+<set xpath="/entity_classes/entity_class[@name='enSnowSantaHelper1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">170</set> <!-- Santa's Sussy Servant -->
+<set xpath="/entity_classes/entity_class[@name='enSnowSpider']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">195</set> <!-- Bouncy Burk -->
+<set xpath="/entity_classes/entity_class[@name='enSoldier196']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">160</set> <!-- Lt Lima -->
+<set xpath="/entity_classes/entity_class[@name='enSoldierFemale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">140</set> <!-- GI Jane -->
+<set xpath="/entity_classes/entity_class[@name='enSoldierFemale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">140</set> <!-- Sergeant Starr -->
+<set xpath="/entity_classes/entity_class[@name='enSoldierMale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">160</set> <!-- Colonel Kang -->
+<set xpath="/entity_classes/entity_class[@name='enSoldierMale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Sergeant Slade -->
+<set xpath="/entity_classes/entity_class[@name='enSpider196']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Spider Clark -->
+<set xpath="/entity_classes/entity_class[@name='enSpiderTom']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Spider Tom -->
+<set xpath="/entity_classes/entity_class[@name='enStealthMale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Swifty Shuzo -->
+<set xpath="/entity_classes/entity_class[@name='enStripper1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Bambi -->
+<set xpath="/entity_classes/entity_class[@name='enStripper2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Kinky Kandi -->
+<set xpath="/entity_classes/entity_class[@name='enStripper3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Scarlett -->
+<set xpath="/entity_classes/entity_class[@name='enStripper4']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- DD Dallas -->
+<set xpath="/entity_classes/entity_class[@name='enSwatMale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">200</set> <!-- SWAT Fryer -->
+<set xpath="/entity_classes/entity_class[@name='enSwatMale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">200</set> <!-- SWAT Shocker -->
+<set xpath="/entity_classes/entity_class[@name='enSwatMale3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">200</set> <!-- SWAT Stinger -->
+<set xpath="/entity_classes/entity_class[@name='enUtilityFemale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">130</set> <!-- Nailgun Nona -->
+<set xpath="/entity_classes/entity_class[@name='enUtilityFemale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">135</set> <!-- Waterpail Wanda -->
+<set xpath="/entity_classes/entity_class[@name='enUtilityMale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">160</set> <!-- Cableguy Carlos -->
+<set xpath="/entity_classes/entity_class[@name='enUtilityMale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Wireguy Wayne -->
+<set xpath="/entity_classes/entity_class[@name='enUtilityMale3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">160</set> <!-- Builder Bob -->
+<set xpath="/entity_classes/entity_class[@name='enUtilityMale4']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">170</set> <!-- Digger Dick -->
+<set xpath="/entity_classes/entity_class[@name='enUtilityMale5']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">300</set> <!-- Rekt-it Ralph -->
+<set xpath="/entity_classes/entity_class[@name='enWastelandFemale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Doomed Dora -->
+<set xpath="/entity_classes/entity_class[@name='enWastelandFemale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">135</set> <!-- Bleak Barbara -->
+<set xpath="/entity_classes/entity_class[@name='enWastelandFemale3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">130</set> <!-- Hopeless Hanna -->
+<set xpath="/entity_classes/entity_class[@name='enWastelandFemaleCrazy']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">120</set> <!-- Crazy Kathy -->
+<set xpath="/entity_classes/entity_class[@name='enWastelandGiant']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">1400</set> <!-- Wasteland Giant -->
+<set xpath="/entity_classes/entity_class[@name='enWastelandGoblin1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">75</set> <!-- Wasteland Goblin1 -->
+<set xpath="/entity_classes/entity_class[@name='enWastelandGoblin2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">98</set> <!-- Wasteland Goblin2 -->
+<set xpath="/entity_classes/entity_class[@name='enWastelandGoblin3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">83</set> <!-- Wasteland Goblin3 -->
+<set xpath="/entity_classes/entity_class[@name='enWastelandMale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Wailing Weyland -->
+<set xpath="/entity_classes/entity_class[@name='enWastelandMale2']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">160</set> <!-- Agonizing Adam -->
+<set xpath="/entity_classes/entity_class[@name='enWastelandMale3']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">145</set> <!-- Tortured Trevor -->
+<set xpath="/entity_classes/entity_class[@name='enWastelandMaleCrazy']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">140</set> <!-- Raging Ryan -->
+<set xpath="/entity_classes/entity_class[@name='enWastelandSpider']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">170</set> <!-- Springy Saul -->
+<set xpath="/entity_classes/entity_class[@name='enWildlingFemale1']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">90</set> <!-- Wilding Girl -->
+<set xpath="/entity_classes/entity_class[@name='enWolf']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">200</set> <!-- Wolf -->
+<set xpath="/entity_classes/entity_class[@name='enDireWolf']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">750</set> <!-- Dire Wolf -->
+<set xpath="/entity_classes/entity_class[@name='enCoyote']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">100</set> <!-- Coyote -->
+
+
+<!-- *** KHz UMA Zombies *** -->
+
+<set xpath="/entity_classes/entity_class[@name='khzAiden']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">145</set> <!-- Aiden -->
+<set xpath="/entity_classes/entity_class[@name='khzChang']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">140</set> <!-- Chang -->
+<set xpath="/entity_classes/entity_class[@name='khzCharlotte']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Charlotte -->
+<set xpath="/entity_classes/entity_class[@name='khzClint']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">160</set> <!-- Clint -->
+<set xpath="/entity_classes/entity_class[@name='khzEmma']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Emma -->
+<set xpath="/entity_classes/entity_class[@name='khzGabrielle']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">135</set> <!-- Gabrielle -->
+<set xpath="/entity_classes/entity_class[@name='khzGrace']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">130</set> <!-- Grace -->
+<set xpath="/entity_classes/entity_class[@name='khzHank']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">160</set> <!-- Hank -->
+<set xpath="/entity_classes/entity_class[@name='khzHelen']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">130</set> <!-- Helen -->
+<set xpath="/entity_classes/entity_class[@name='khzJack']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">160</set> <!-- Jack -->
+<set xpath="/entity_classes/entity_class[@name='khzJeff']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Jeff -->
+<set xpath="/entity_classes/entity_class[@name='khzMaria']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">130</set> <!-- Maria -->
+<set xpath="/entity_classes/entity_class[@name='khzMiguel']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Miguel -->
+<set xpath="/entity_classes/entity_class[@name='khzRayah']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">135</set> <!-- Rayah -->
+<set xpath="/entity_classes/entity_class[@name='khzRichie']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Richie -->
+<set xpath="/entity_classes/entity_class[@name='khzRoxy']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">130</set> <!-- Roxy -->
+<set xpath="/entity_classes/entity_class[@name='khzVince']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">165</set> <!-- Vince -->
+<set xpath="/entity_classes/entity_class[@name='khzWillie']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">155</set> <!-- Willie -->
+
+
+<!-- *** Vanilla Zombies *** -->
+
+<set xpath="/entity_classes/entity_class[@name='zombieArlene']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Arlene -->
+<set xpath="/entity_classes/entity_class[@name='zombieArleneFeral']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">237</set> <!-- Arlene Feral -->
+<set xpath="/entity_classes/entity_class[@name='zombieArleneRadiated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">451</set> <!-- Arlene Radiated -->
+<set xpath="/entity_classes/entity_class[@name='zombieBiker']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">280</set> <!-- Biker -->
+<set xpath="/entity_classes/entity_class[@name='zombieBikerFeral']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">532</set> <!-- Biker Feral -->
+<set xpath="/entity_classes/entity_class[@name='zombieBikerRadiated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">1010</set> <!-- Biker Radiated -->
+<set xpath="/entity_classes/entity_class[@name='zombieBoe']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Boe -->
+<set xpath="/entity_classes/entity_class[@name='zombieBoeFeral']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">285</set> <!-- Boe Feral -->
+<set xpath="/entity_classes/entity_class[@name='zombieBoeRadiated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">541</set> <!-- Boe Radiated -->
+<!-- zombieMaleHazmat inherits HP stats from zombieBoe -->
+<set xpath="/entity_classes/entity_class[@name='zombieBurnt']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Burnt Zombie -->
+<set xpath="/entity_classes/entity_class[@name='zombieBurntFeral']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">237</set> <!-- Burnt Zombie Feral -->
+<set xpath="/entity_classes/entity_class[@name='zombieBurntRadiated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">451</set> <!-- Burnt Zombie Radiated -->
+<set xpath="/entity_classes/entity_class[@name='zombieBusinessMan']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Businessman -->
+<set xpath="/entity_classes/entity_class[@name='zombieBusinessManFeral']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">237</set> <!-- Businessman Feral -->
+<set xpath="/entity_classes/entity_class[@name='zombieBusinessManRadiated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">900</set> <!-- Businessman Radiated -->
+<set xpath="/entity_classes/entity_class[@name='zombieDarlene']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Darlene -->
+<set xpath="/entity_classes/entity_class[@name='zombieDarleneFeral']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">285</set> <!-- Darlene Feral -->
+<set xpath="/entity_classes/entity_class[@name='zombieDarleneRadiated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">541</set> <!-- Darlene Radiated -->
+<set xpath="/entity_classes/entity_class[@name='zombieDemolition']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">1000</set> <!-- Demolition -->
+<set xpath="/entity_classes/entity_class[@name='zombieFatCop']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">300</set> <!-- Fat Cop -->
+<set xpath="/entity_classes/entity_class[@name='zombieFatCopFeral']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">570</set> <!-- Fat Cop Feral -->
+<set xpath="/entity_classes/entity_class[@name='zombieFatCopRadiated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">1080</set> <!-- Fat Cop Radiated -->
+<set xpath="/entity_classes/entity_class[@name='zombieFatHawaiian']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">300</set> <!-- Fat Hawaiian -->
+<set xpath="/entity_classes/entity_class[@name='zombieFatHawaiianFeral']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">570</set> <!-- Fat Hawaiian Feral -->
+<set xpath="/entity_classes/entity_class[@name='zombieFatHawaiianRadiated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">1080</set> <!-- Fat Hawaiian Radiated -->
+<set xpath="/entity_classes/entity_class[@name='zombieFemaleFat']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">300</set> <!-- Fat Mama -->
+<set xpath="/entity_classes/entity_class[@name='zombieFemaleFatFeral']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">570</set> <!-- Fat Mama Feral -->
+<set xpath="/entity_classes/entity_class[@name='zombieFemaleFatRadiated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">1080</set> <!-- Fat Mama Radiated -->
+<set xpath="/entity_classes/entity_class[@name='zombieJanitor']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Janitor -->
+<set xpath="/entity_classes/entity_class[@name='zombieJanitorFeral']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">285</set> <!-- Janitor Feral -->
+<set xpath="/entity_classes/entity_class[@name='zombieJanitorRadiated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">541</set> <!-- Janitor Radiated -->
+<set xpath="/entity_classes/entity_class[@name='zombieJoe']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Joe -->
+<set xpath="/entity_classes/entity_class[@name='zombieJoeFeral']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">237</set> <!-- Joe Feral -->
+<set xpath="/entity_classes/entity_class[@name='zombieJoeRadiated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">451</set> <!-- Joe Radiated -->
+<set xpath="/entity_classes/entity_class[@name='zombieLab']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Lab Worker -->
+<set xpath="/entity_classes/entity_class[@name='zombieLabFeral']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">285</set> <!-- Lab Worker Feral -->
+<set xpath="/entity_classes/entity_class[@name='zombieLabRadiated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">541</set> <!-- Lab Worker Radiated -->
+<set xpath="/entity_classes/entity_class[@name='zombieLumberjack']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">300</set> <!-- LumberJack -->
+<set xpath="/entity_classes/entity_class[@name='zombieLumberjackFeral']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">570</set> <!-- LumberJack Feral -->
+<set xpath="/entity_classes/entity_class[@name='zombieLumberjackRadiated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">1080</set> <!-- LumberJack Radiated -->
+<set xpath="/entity_classes/entity_class[@name='zombieMarlene']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Marlene -->
+<set xpath="/entity_classes/entity_class[@name='zombieMarleneFeral']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">237</set> <!-- Marlene Feral -->
+<set xpath="/entity_classes/entity_class[@name='zombieMarleneRadiated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">451</set> <!-- Marlene Radiated -->
+<set xpath="/entity_classes/entity_class[@name='zombieMoe']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Moe -->
+<set xpath="/entity_classes/entity_class[@name='zombieMoeFeral']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">285</set> <!-- Moe Feral -->
+<set xpath="/entity_classes/entity_class[@name='zombieMoeRadiated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">541</set> <!-- Moe Radiated -->
+<set xpath="/entity_classes/entity_class[@name='zombieMutated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Mutated Zombie -->
+<set xpath="/entity_classes/entity_class[@name='zombieMutatedFeral']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">285</set> <!-- Mutated Zombie Feral -->
+<set xpath="/entity_classes/entity_class[@name='zombieMutatedRadiated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">541</set> <!-- Mutated Zombie Radiated -->
+<set xpath="/entity_classes/entity_class[@name='zombieNurse']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Nurse -->
+<set xpath="/entity_classes/entity_class[@name='zombieNurseFeral']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">237</set> <!-- Nurse Feral -->
+<set xpath="/entity_classes/entity_class[@name='zombieNurseRadiated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">451</set> <!-- Nurse Radiated -->
+<set xpath="/entity_classes/entity_class[@name='zombiePartyGirl']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Party Girl -->
+<set xpath="/entity_classes/entity_class[@name='zombiePartyGirlFeral']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">237</set> <!-- Party Girl Feral -->
+<set xpath="/entity_classes/entity_class[@name='zombiePartyGirlRadiated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">451</set> <!-- Party Girl Radiated -->
+<set xpath="/entity_classes/entity_class[@name='zombieScreamer']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">75</set> <!-- Screamer -->
+<set xpath="/entity_classes/entity_class[@name='zombieScreamerFeral']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">142</set> <!-- Screamer Feral -->
+<set xpath="/entity_classes/entity_class[@name='zombieScreamerRadiated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">270</set> <!-- Screamer Radiated -->
+<set xpath="/entity_classes/entity_class[@name='zombieSkateboarder']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">225</set> <!-- Hoodie Zombie -->
+<set xpath="/entity_classes/entity_class[@name='zombieSkateboarderFeral']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">427</set> <!-- Hoodie Zombie Feral -->
+<set xpath="/entity_classes/entity_class[@name='zombieSkateboarderRadiated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">811</set> <!-- Hoodie Zombie Radiated -->
+<set xpath="/entity_classes/entity_class[@name='zombieSoldier']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Soldier -->
+<set xpath="/entity_classes/entity_class[@name='zombieSoldierFeral']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">285</set> <!-- Soldier Feral -->
+<set xpath="/entity_classes/entity_class[@name='zombieSoldierRadiated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">541</set> <!-- Soldier Radiated -->
+<set xpath="/entity_classes/entity_class[@name='zombieSpider']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Spider Zombie -->
+<set xpath="/entity_classes/entity_class[@name='zombieSpiderFeral']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">237</set> <!-- Spider Zombie Feral -->
+<set xpath="/entity_classes/entity_class[@name='zombieSpiderRadiated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">451</set> <!-- Spider Zombie Radiated -->
+<set xpath="/entity_classes/entity_class[@name='zombieSteve']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Stevie Asian -->
+<set xpath="/entity_classes/entity_class[@name='zombieSteveFeral']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">237</set> <!-- Stevie Asian Feral -->
+<set xpath="/entity_classes/entity_class[@name='zombieSteveRadiated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">451</set> <!-- Stevie Asian Radiated -->
+<set xpath="/entity_classes/entity_class[@name='zombieSteveCrawler']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">80</set> <!-- Crawler -->
+<set xpath="/entity_classes/entity_class[@name='zombieSteveCrawlerFeral']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">152</set> <!-- Crawler Feral -->
+<set xpath="/entity_classes/entity_class[@name='zombieTomClark']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">125</set> <!-- Tom Clark -->
+<set xpath="/entity_classes/entity_class[@name='zombieTomClarkFeral']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">237</set> <!-- Tom Clark Feral -->
+<set xpath="/entity_classes/entity_class[@name='zombieTomClarkRadiated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">451</set> <!-- Tom Clark Radiated -->
+<set xpath="/entity_classes/entity_class[@name='zombieUtilityWorker']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Utility Worker -->
+<set xpath="/entity_classes/entity_class[@name='zombieUtilityWorkerFeral']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">285</set> <!-- Utility Worker Feral -->
+<set xpath="/entity_classes/entity_class[@name='zombieUtilityWorkerRadiated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">900</set> <!-- Utility Worker Radiated -->
+<set xpath="/entity_classes/entity_class[@name='zombieWightFeral']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">427</set> <!-- Wight Feral -->
+<set xpath="/entity_classes/entity_class[@name='zombieWightRadiated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">811</set> <!-- Wight Radiated -->
+<set xpath="/entity_classes/entity_class[@name='zombieYo']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">150</set> <!-- Yo -->
+<set xpath="/entity_classes/entity_class[@name='zombieYoFeral']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">285</set> <!-- Yo Feral -->
+<set xpath="/entity_classes/entity_class[@name='zombieYoRadiated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">541</set> <!-- Yo Radiated -->
+
+
+<!-- *** Vanilla Animals *** -->
+
+<set xpath="/entity_classes/entity_class[@name='animalChicken']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">10</set> <!-- Chicken -->
+<set xpath="/entity_classes/entity_class[@name='animalBoar']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">250</set> <!-- Boar -->
+<set xpath="/entity_classes/entity_class[@name='animalBear']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">1600</set> <!-- Bear -->
+<set xpath="/entity_classes/entity_class[@name='animalCoyote']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">100</set> <!-- Coyote -->
+<set xpath="/entity_classes/entity_class[@name='animalDoe']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">50</set> <!-- Doe -->
+<set xpath="/entity_classes/entity_class[@name='animalWolf']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">200</set> <!-- Wolf -->
+<set xpath="/entity_classes/entity_class[@name='animalDireWolf']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">750</set> <!-- Dire Wolf -->
+<!-- animalMountainLion inherits HP stats from animalDireWolf -->
+<set xpath="/entity_classes/entity_class[@name='animalRabbit']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">10</set> <!-- Rabbit -->
+<set xpath="/entity_classes/entity_class[@name='animalSnake']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">10</set> <!-- Rattle Snake -->
+<set xpath="/entity_classes/entity_class[@name='animalStag']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">100</set> <!-- Stag -->
+<set xpath="/entity_classes/entity_class[@name='animalZombieVulture']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">30</set> <!-- Zombie Vulture -->
+<set xpath="/entity_classes/entity_class[@name='animalZombieVultureRadiated']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">120</set> <!-- Zombie Vulture Radiated -->
+<set xpath="/entity_classes/entity_class[@name='animalZombieBear']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">2000</set> <!-- Zombie Bear -->
+<set xpath="/entity_classes/entity_class[@name='animalZombieDog']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">200</set> <!-- Zombie Dog -->
+<set xpath="/entity_classes/entity_class[@name='animalBossGrace']/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax']/@value">2000</set> <!-- Grace -->
+
+
+<!-- RANDOM HP VARIATION: The default HP range is currently from 0% to 20%. Change this HP range to whichever you prefer. For example, to see random HP variation from -10% to 10%, set the values to -0.10,0.10. To disable any variation, set value to 0.00,0.00. This setting applies to enZombies, vanilla zombies, and animals.
+-->
+<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale'		]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax' and @operation='perc_add']/@value">0.00,0.20</set>
+
+</ErrorNull>
