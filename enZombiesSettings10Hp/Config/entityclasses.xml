@@ -1,7 +1,7 @@
 <ErrorNull>
 
 <!-- 
-ZOMBIE HP: Each row represents one zombie type. Two bits of info will help you identify which zombie a particluar row belongs to: 1) look for "entity_class @name=" near the left of each row, which is the zombie's name as defined in the entity xml code. 2) Alos, look toward the right end of the row which shows the name of the zombie as it displys in-game.
+ZOMBIE HP: Each row represents one zombie type. Two bits of info will help you identify which zombie a particluar row belongs to: 1) look for "entity_class @name=" near the left of each row, which is the zombie's name as defined in the entity xml code. 2) Also, look toward the right end of the row which shows the name of the zombie as it displys in-game.
 
 To modify the zombie's HP value, look toward the right of each row for "HealthMax @value" - change that to whichever value you wish.
 -->
